@@ -25,6 +25,7 @@ return {
           ['\\'] = 'close_window',
           ['H'] = 'toggle_hidden',
           ['v'] = 'open_vsplit',
+          ['r'] = 'rename',
         },
       },
     },

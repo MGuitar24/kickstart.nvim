@@ -15,9 +15,16 @@ return {
   },
   opts = {
     filesystem = {
+      filtered_items = {
+        visible = false, -- Show filtered items
+        hide_dotfiles = true, -- Show dotfiles (hidden files)
+        hide_gitignored = true, -- Show gitignored files
+      },
       window = {
         mappings = {
           ['\\'] = 'close_window',
+          ['H'] = 'toggle_hidden',
+          ['v'] = 'open_vsplit',
         },
       },
     },
